@@ -15,7 +15,9 @@ BuildRequires: perl(Moose)
 BuildRequires: perl(MooseX::Types)
 BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::More)
+BuildRequires: perl(namespace::autoclean)
 BuildRequires: perl(namespace::clean)
+
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
 
@@ -31,7 +33,7 @@ Moose meta method objects.
 %make
 
 %check
-make test
+%make test
 
 %install
 rm -rf %buildroot
@@ -45,4 +47,3 @@ rm -rf %buildroot
 %doc Changes LICENSE README
 %{_mandir}/man3/*
 %perl_vendorlib/*
-
