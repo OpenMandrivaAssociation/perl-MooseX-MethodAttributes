@@ -1,9 +1,9 @@
 %define upstream_name    MooseX-MethodAttributes
-%define upstream_version 0.24
+%define upstream_version 0.25
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    No summary found
 License:    GPL+ or Artistic
