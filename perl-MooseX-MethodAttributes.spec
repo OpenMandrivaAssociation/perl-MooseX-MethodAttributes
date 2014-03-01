@@ -11,6 +11,8 @@ Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires: perl(Moose)
+BuildRequires: perl(Test::Requires)
+BuildRequires: perl(Test::Fatal)
 BuildRequires: perl(MooseX::Types)
 BuildRequires: perl(Test::CheckDeps)
 BuildRequires: perl(Test::Exception)
