@@ -1,5 +1,4 @@
-%define upstream_name    MooseX-MethodAttributes
-%define upstream_version 0.28
+%define upstream_name    MooseX-MethodAttributes%define upstream_version 0.29
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -94,4 +93,5 @@ Moose meta method objects.
 
 * Fri Jun 12 2009 cpan2dist 0.14-1mdv
 - initial mdv release, generated with cpan2dist
+
 

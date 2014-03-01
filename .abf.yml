@@ -1,2 +1,4 @@
+removed_sources:
+  MooseX-MethodAttributes-0.28.tar.gz: ddbe43b0ca191b6c6f7dcacddfe62d8217fd43f3
 sources:
-  "MooseX-MethodAttributes-0.28.tar.gz": ddbe43b0ca191b6c6f7dcacddfe62d8217fd43f3
+  MooseX-MethodAttributes-0.29.tar.gz: 8fbd51260e53acad310aed248fdd0e7394d4cf13
