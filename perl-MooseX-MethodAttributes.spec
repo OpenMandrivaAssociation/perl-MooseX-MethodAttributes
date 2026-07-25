@@ -1,14 +1,15 @@
-%define upstream_name    MooseX-MethodAttributes%define upstream_version 0.29
+%define upstream_name    MooseX-MethodAttributes
+%define upstream_version 0.32
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:    3
+Version:    %{upstream_version}
+Release:    1
 
 Summary:    No summary found
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
+Url:        https://github.com/moose/MooseX-MethodAttributes
+Source0:    https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-MethodAttributes-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires: perl(Moose)
