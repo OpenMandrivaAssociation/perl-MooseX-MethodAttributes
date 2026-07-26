@@ -1,15 +1,13 @@
 %define upstream_name    MooseX-MethodAttributes
-%define upstream_version 0.32
-
 Name:       perl-%{upstream_name}
-Version:    %{upstream_version}
-Release:    1
+Version:    0.32
+Release:    2
 
 Summary:    No summary found
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        https://github.com/moose/MooseX-MethodAttributes
-Source0:    https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-MethodAttributes-%{upstream_version}.tar.gz
+Source0:    https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-MethodAttributes-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires: perl(Moose)
@@ -30,7 +28,7 @@ This module allows code attributes of methods to be introspected using
 Moose meta method objects.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
